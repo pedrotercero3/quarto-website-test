@@ -1,4 +1,0 @@
-- source: project
-  netlify:
-    - id: db625270-ea90-4877-9948-f6b52b8b92c2
-      url: 'https://quartowebtest.netlify.app'
