@@ -1,0 +1,23 @@
+---
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2024-09-30"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+library(ggplot2)
+
+iris |> 
+  ggplot(aes(x = Sepal.Width, y = Sepal.Length)) +
+  geom_point(aes(col = Species)) +
+  geom_smooth(aes(col = Species)) +
+  labs(
+    title = "This is a test"
+  )
+
+sessionInfo()
+```

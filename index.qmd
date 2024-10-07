@@ -1,0 +1,13 @@
+---
+title: "Quato testtt"
+---
+
+This is a Quarto website test.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+sessionInfo()
+```
+
+# If you can read this it's working
